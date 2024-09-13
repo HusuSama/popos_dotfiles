@@ -1,0 +1,5 @@
+[opener]
+edit = [{ run = 'neovide "$@"', block = true, desc = "neovide", orphan = true }]
+
+# [open]
+# prepend_rules = [{ name = "", use = ["edit"] }]

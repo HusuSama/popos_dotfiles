@@ -1,0 +1,14 @@
+[[manager.prepend_keymap]]
+on = ["g", "p"]
+run = "cd ~/PythonProjects"
+desc = "Cd to ~/PythonProjects"
+
+[[manager.prepend_keymap]]
+on = ["g", "d"]
+run = "cd ~/下载"
+desc = "Cd to ~/下载"
+
+[[manager.prepend_keymap]]
+on = ["g", "v"]
+run = "cd ~/VueProjects"
+desc = "Cd to ~/VueProjects"
