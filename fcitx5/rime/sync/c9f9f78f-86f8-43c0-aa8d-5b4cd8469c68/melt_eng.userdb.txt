@@ -1,0 +1,9 @@
+# Rime user dictionary
+#@/db_name	melt_eng
+#@/db_type	userdb
+#@/rime_version	1.9.0
+#@/tick	4
+#@/user_id	c9f9f78f-86f8-43c0-aa8d-5b4cd8469c68
+apt 	apt	c=1 d=1 t=4
+curl 	curl	c=1 d=1 t=4
+git 	git	c=1 d=1 t=4
