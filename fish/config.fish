@@ -15,3 +15,5 @@ alias fd fdfind
 # set QT_IM_MODULE fcitx5
 # set XMODIFIERS @im=fcitx5
 alias ls  ~/eza/eza
+# alias lazygit ~/lazygit/lazygit
+# alias lazydocker ~/lazydocker/lazydocker
