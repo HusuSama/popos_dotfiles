@@ -1,0 +1,14 @@
+fork = true
+frame = "none"
+maximized = true
+no-multigrid = false
+title-hidden = true
+[font]
+# normal = ["Inconsolata Nerd Font Mono"]
+# normal = ["CommitMono Nerd Font Mono"]
+# normal = ["Mononoki Nerd Font Mono"]
+# normal = ["Cousine Nerd Font Mono"]
+# normal = ["SpaceMono Nerd Font Mono"]
+# normal = ["Noto Sans Mono"]
+normal = ["GeistMono Nerd Font Mono"]
+size = 10.5

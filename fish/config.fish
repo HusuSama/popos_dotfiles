@@ -14,4 +14,4 @@ alias fd fdfind
 # set GTK_IM_MODULE fcitx5
 # set QT_IM_MODULE fcitx5
 # set XMODIFIERS @im=fcitx5
-# alias ls  ~/eza/eza
+alias ls  ~/eza/eza
