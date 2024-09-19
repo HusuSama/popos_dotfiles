@@ -1,0 +1,5 @@
+[flags]
+tree = true
+
+[styles]
+theme = "gruvbox"

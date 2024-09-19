@@ -33,3 +33,7 @@ sudo update-alternatives --install /usr/bin/x-terminal-emulator x-terminal-emula
 ```shell
 sudo update-alternatives --config x-terminal-emulator
 ```
+
+## fcitx5 配置
+
+如果你使用 `flatpak` 下载的 `fcitx5` ，你需要下载 `flatseal` 权限管理工具，给 `fcitx5` 给予用户目录访问权限，然后再使用 `ln` 创建软链接
