@@ -1,0 +1,18 @@
+customCommands:
+  - key: "I"
+    context: "files"
+    prompts: 
+      - type: "menu"
+        title: "过滤文件还是文件夹？"
+        key: "IgnoreType"
+        options:
+          - name: "文件"
+            value: " "
+          - name: "文件夹"
+            value: " -r "
+      - type: "input"
+        title: "输入过滤的对象名称"
+        key: "IgnoreObject"
+    command: "git rm{{.Form.IgnoreType}}--cached {{.Form.IgnoreObject}}"
+    # command: "echo{{.Form.IgnoreType}},{{.Form.IgnoreObject}}"
+    description: "过滤输入的对象"

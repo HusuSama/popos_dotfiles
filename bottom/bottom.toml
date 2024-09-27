@@ -1,5 +1,5 @@
-[flags]
-tree = true
+# [flags]
+# tree = true
 
-[styles]
-theme = "gruvbox"
+# [styles]
+# theme = "gruvbox"
