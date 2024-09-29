@@ -1,5 +1,7 @@
 # Pop!_OS dotfiles
 
+`Pop!_Linux` is based on `Ubuntu`, so theoretically `Ubuntu` can also use this configuration, and in terms of tool configuration, other `Linux` distributions are equally applicable.
+
 ## preview
 
 ### wezterm
@@ -51,5 +53,9 @@ git clone https://github.com/1538379200/popos_dotfiles.git
 ```shell
 sh install.sh
 ```
+
+5. Download the `Inconsolata Nerd Font` font or your desired font from [Nerd Fonts](https://www.nerdfonts.com/font-downloads), you can modify the font as you wish
+    - `nvim` font: `./neovide/config.toml` or `./nvim/lua/astrocore.lua`
+    - `wezterm` font: `./wezterm/wezterm.lua`
 
 5. Install the software in the configuration or only install the software you currently need
