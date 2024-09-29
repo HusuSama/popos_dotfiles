@@ -17,3 +17,10 @@ alias fd fdfind
 alias ls  ~/eza/eza
 # alias lazygit ~/lazygit/lazygit
 # alias lazydocker ~/lazydocker/lazydocker
+
+# pnpm
+set -gx PNPM_HOME "/home/husu/.local/share/pnpm"
+if not string match -q -- $PNPM_HOME $PATH
+  set -gx PATH "$PNPM_HOME" $PATH
+end
+# pnpm end
