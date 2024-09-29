@@ -3,17 +3,17 @@
 ## preview
 
 ### wezterm
-[wezterm](./images/global.png)
-[tabs](./images/tabs.png)
+![wezterm](./images/global.png)
+![tabs](./images/tabs.png)
 
 ### neovim
-[neovim](./images/neovimpng.png)
+![neovim](./images/neovimpng.png)
 
 ### fcitx5
-[fcitx5](./images/keyboard.png)
+![fcitx5](./images/keyboard.png)
 
 ### yazi
-[yazi](./images/yazi.png)
+![yazi](./images/yazi.png)
 
 ## 🛠 features
 
