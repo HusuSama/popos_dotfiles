@@ -59,3 +59,9 @@ sh install.sh
     - `wezterm` font: `./wezterm/wezterm.lua`
 
 5. Install the software in the configuration or only install the software you currently need
+
+## Install fcitx5
+
+- `flatpak install flathub org.fcitx.Fcitx5`
+- `flatpak install flathub org.fcitx.Fcitx5.Addon.Rime`
+
