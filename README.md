@@ -55,7 +55,7 @@ sh install.sh
 ```
 
 5. Download the `Inconsolata Nerd Font` font or your desired font from [Nerd Fonts](https://www.nerdfonts.com/font-downloads), you can modify the font as you wish
-    - `nvim` font: `./neovide/config.toml` or `./nvim/lua/astrocore.lua`
+    - `nvim` font: `./neovide/config.toml` or `./nvim/lua/plugins/astrocore.lua`
     - `wezterm` font: `./wezterm/wezterm.lua`
 
 5. Install the software in the configuration or only install the software you currently need
