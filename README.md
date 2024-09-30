@@ -65,3 +65,7 @@ sh install.sh
 - `flatpak install flathub org.fcitx.Fcitx5`
 - `flatpak install flathub org.fcitx.Fcitx5.Addon.Rime`
 
+## Others
+
+- Configure to use `eza` instead of the `ls` command. If you need to use this method, please download `eza`. The `eza` executable file path is `~/eza/eza`. Alternatively, you can also change it in `./fish/config.fish`.  
+
