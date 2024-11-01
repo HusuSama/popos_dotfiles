@@ -24,3 +24,12 @@ if not string match -q -- $PNPM_HOME $PATH
   set -gx PATH "$PNPM_HOME" $PATH
 end
 # pnpm end
+
+# fzf
+set PATH ~/fzf-0.55.0 $PATH
+fzf --fish | source
+# fzf end
+
+# golang start
+set PATH /usr/local/go/bin $PATH
+# golang end

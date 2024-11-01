@@ -2,8 +2,10 @@
 #@/db_name	melt_eng
 #@/db_type	userdb
 #@/rime_version	1.9.0
-#@/tick	6
+#@/tick	11
 #@/user_id	c9f9f78f-86f8-43c0-aa8d-5b4cd8469c68
-apt 	apt	c=2 d=1.99501 t=6
-curl 	curl	c=2 d=1.99501 t=6
-git 	git	c=1 d=1 t=6
+Python 	Python	c=2 d=1.99501 t=11
+apt 	apt	c=2 d=1.99501 t=11
+curl 	curl	c=3 d=2.98506 t=11
+docker 	docker	c=1 d=1 t=11
+git 	git	c=2 d=1.99501 t=11

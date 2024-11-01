@@ -12,3 +12,13 @@ desc = "Cd to ~/下载"
 on = ["g", "v"]
 run = "cd ~/VueProjects"
 desc = "Cd to ~/VueProjects"
+
+[[manager.prepend_keymap]]
+on = ["g", "g"]
+run = "cd ~/GoProjects"
+desc = "Cd to ~/GoProjects"
+
+[[manager.prepend_keymap]]
+on = ["g", "r"]
+run = "cd ~/RustProjects"
+desc = "Cd to ~/RustProjects"

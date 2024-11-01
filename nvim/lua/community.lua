@@ -22,6 +22,7 @@ return {
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.tailwindcss" },
   { import = "astrocommunity.pack.markdown" },
+  { import = "astrocommunity.pack.docker" },
   -- lsp tools
   { import = "astrocommunity.lsp.lspsaga-nvim" },
   -- editing-support

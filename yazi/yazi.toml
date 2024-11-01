@@ -1,5 +1,5 @@
 [opener]
-edit = [{ run = 'neovide "$@"', block = true, desc = "neovide", orphan = true }]
+edit = [{ run = 'nvim "$@"', block = true, desc = "nvim", orphan = true }]
 
 # [open]
 # prepend_rules = [{ name = "", use = ["edit"] }]
