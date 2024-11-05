@@ -22,6 +22,11 @@ function M.setup(config)
             },
         },
     }
+    -- 设置左右内边距
+    config.window_padding = {
+        left = 10,
+        right = 10,
+    }
 end
 
 return M
