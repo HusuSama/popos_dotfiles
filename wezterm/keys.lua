@@ -1,10 +1,11 @@
 local M = {}
 local wezterm = require("wezterm")
-local utils = require("utils")
+-- local utils = require("utils")
 local act = wezterm.action
 M.mods = wezterm.target_triple:find("linux") and "CTRL|ALT" or "CTRL|SUPER"
 
---- @param config table
+--- @param config wezterm.Config
+--- @return nil
 function M.setup(config)
     -- 禁用所有的快捷键
     -- config.disable_default_key_bindings = true
