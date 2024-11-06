@@ -38,6 +38,26 @@ function M.setup(config)
             mods = M.mods,
             action = act.ScrollByPage(-0.5),
         },
+        {
+            key = "l",
+            mods = M.mods,
+            action = act.ScrollToBottom,
+        },
+        {
+            key = "h",
+            mods = M.mods,
+            action = act.ScrollToTop,
+        },
+        {
+            key = "d",
+            mods = M.mods,
+            action = act.ShowDebugOverlay,
+        },
+        {
+            key = "F11",
+            mods = "",
+            action = act.ToggleFullScreen,
+        },
     }
     -- 当检测到启动的程序是 nvim 时，进行一些键盘映射操作
     -- wezterm.on("user-var-changed", function(window, pane, name, value)
