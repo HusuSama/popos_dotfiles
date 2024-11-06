@@ -4,6 +4,8 @@ local M = {}
 function M.setup(config)
     -- 主题
     config.color_scheme = "Catppuccin Frappé (Gogh)"
+    -- 不显示边框等
+    config.window_decorations = "NONE"
     -- 不透明度
     config.window_background_opacity = 0.8
     -- 只有一个 tab 标签时隐藏

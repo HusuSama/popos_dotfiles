@@ -27,32 +27,37 @@ function M.setup(config)
             mods = "ALT",
             action = act.DisableDefaultAssignment,
         },
-        -- 上下翻页
+        -- 向下翻页
         {
             key = "j",
             mods = M.mods,
             action = act.ScrollByPage(0.5),
         },
+        -- 向上翻页
         {
             key = "k",
             mods = M.mods,
             action = act.ScrollByPage(-0.5),
         },
+        -- 跳转底部
         {
             key = "l",
             mods = M.mods,
             action = act.ScrollToBottom,
         },
+        -- 跳转顶部
         {
             key = "h",
             mods = M.mods,
             action = act.ScrollToTop,
         },
+        -- 打开 wezterm 调试模式
         {
             key = "d",
             mods = M.mods,
             action = act.ShowDebugOverlay,
         },
+        -- 全屏显示
         {
             key = "F11",
             mods = "",
